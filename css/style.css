@@ -1,0 +1,48 @@
+
+/* Body */
+body {
+    background-color: hsl(215, 100%, 97%);
+    color: hsl(27, 100%, 65%);
+}
+
+/* bloc */
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Inline */
+a {
+    padding: 4px 11px;
+    background-color: hsl(84, 100%, 77%);
+    color: hsl(27, 100%, 65%);
+    font-size: 25px;
+    border-radius: 25px;
+    border: solid hsl(84, 100%, 67%);
+}
+
+/* Vertical Project Card */
+.project-card--vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 375px;
+    width: 22.5%;
+    padding: 15px;
+    background-color: hsl(84, 100%, 77%);
+    border-radius: 25px;
+    border: solid hsl(84, 100%, 67%);
+}
+
+.project-card--vertical p {
+    justify-self: f;
+    align-self: flex-start;
+}
+
+.project-card--vertical img {
+    width: 90%;
+    height: 40%;
+    border-radius: 25px;
+    border: solid hsl(84, 100%, 67%);
+}
