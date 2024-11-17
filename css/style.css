@@ -11,7 +11,7 @@ body {
 /* bloc */
 section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 50px 0px;
 }
 
@@ -29,6 +29,7 @@ h2 {
 
 a {
     padding: 5px 15px;
+    margin: 15px 15px;
     font-size: 1.5em;
     border-radius: 25px;
 }
@@ -39,8 +40,8 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 375px;
-    width: 22.5%;
+    height: 70vh;
+    width: 25vw;
     padding: 15px;
     border-radius: 25px;
 }
@@ -80,11 +81,11 @@ a {
 .style--green {
     color: hsl(53, 55%, 90%);
     background-color: hsl(53, 40%, 75%);
-    box-shadow: 0px 0px 10px 3px hsl(53, 40%, 75%);
+    box-shadow: 0px 0px 15px 5px hsl(53, 40%, 75%);
 }
 
 .style--orange {
-    color: rgb(249, 238, 235);
+    color: hsl(10, 55%, 95%);
     background-color: hsl(10, 55%, 70%);
-    box-shadow: 0px 0px 10px 3px hsl(10, 55%, 70%);
+    box-shadow: 0px 0px 15px 5px hsl(10, 55%, 70%);
 }
