@@ -1,24 +1,36 @@
 
+@import url(header.css);
 /* Body */
 body {
-    background-color: hsl(215, 100%, 97%);
-    color: hsl(27, 100%, 65%);
+    font-family: "Quicksand", sans-serif;
+    background-color: hsl(53, 55%, 90%);
+    font-size: 1.5em;
+    color: hsl(53, 20%, 55%);
 }
 
 /* bloc */
 section {
     display: flex;
     justify-content: space-evenly;
+    margin: 50px 0px;
 }
 
 /* Inline */
+h1 {
+
+}
+
+h2 {
+    display: inline-block;
+    border-radius: 0px 30px 30px 0px;
+    margin: 10px 0px;
+    padding: 10px 35px 10px 10px;
+}
+
 a {
-    padding: 4px 11px;
-    background-color: hsl(84, 100%, 77%);
-    color: hsl(27, 100%, 65%);
-    font-size: 25px;
+    padding: 5px 15px;
+    font-size: 1.5em;
     border-radius: 25px;
-    border: solid hsl(84, 100%, 67%);
 }
 
 /* Vertical Project Card */
@@ -30,19 +42,49 @@ a {
     height: 375px;
     width: 22.5%;
     padding: 15px;
-    background-color: hsl(84, 100%, 77%);
     border-radius: 25px;
-    border: solid hsl(84, 100%, 67%);
 }
 
 .project-card--vertical p {
-    justify-self: f;
     align-self: flex-start;
+    padding: 0px 5px;
+    border-radius: 10px;
+    font-size: 0.90em;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.project-card--vertical h3 {
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 5px;
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: bold;
 }
 
 .project-card--vertical img {
     width: 90%;
     height: 40%;
     border-radius: 25px;
-    border: solid hsl(84, 100%, 67%);
+    border-style: solid;
+}
+
+.project-card--vertical a {
+    align-self: flex-end;
+    padding: 0px 13px;
+    font-weight: bold;
+}
+
+/* styles */
+.style--green {
+    color: hsl(53, 55%, 90%);
+    background-color: hsl(53, 40%, 75%);
+    box-shadow: 0px 0px 10px 3px hsl(53, 40%, 75%);
+}
+
+.style--orange {
+    color: rgb(249, 238, 235);
+    background-color: hsl(10, 55%, 70%);
+    box-shadow: 0px 0px 10px 3px hsl(10, 55%, 70%);
 }
