@@ -3,7 +3,7 @@
 /* Body */
 body {
     font-family: "Quicksand", sans-serif;
-    background-color: hsl(53, 55%, 90%);
+    background-color: hsl(53, 60%, 90%);
     font-size: 1.5em;
     color: hsl(53, 20%, 55%);
 }
@@ -11,27 +11,58 @@ body {
 /* bloc */
 section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px 0px;
 }
 
 /* Inline */
 h1 {
-
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 75px;
+    font-size: 2.5em;
+    font-weight: normal;
 }
 
 h2 {
     display: inline-block;
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 0px 45px 45px 0px;
     margin: 10px 0px;
-    padding: 10px 35px 10px 10px;
+    padding: 10px 0px 10px 20px;
+    font-size: 1.75em;
+    width: 225px;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 15px 0px;
 }
 
 a {
     padding: 5px 15px;
     margin: 15px 15px;
-    font-size: 1.5em;
+    font-size: 1.3em;
     border-radius: 25px;
+    transition: transform 0.1s;
+}
+
+a:hover {
+    transform: scale(1.07);
+    background-color: hsl(10, 55%, 67%);
+    box-shadow: 0px 0px 10px 5px hsla(10, 55%, 70%, 0.75);
+}
+
+/* Profile */
+
+#profile img {
+    height: 300px;
+    width: auto;
+    border-radius: 100%;
+}
+
+#profile div {
+    width: 650px;
 }
 
 /* Vertical Project Card */
@@ -40,10 +71,15 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 70vh;
-    width: 25vw;
+    height: 65vh;
+    width: 300px;
     padding: 15px;
     border-radius: 25px;
+    transition: transform 0.2s;
+}
+
+.project-card--vertical:hover {
+    transform: translate(0px, -15px)
 }
 
 .project-card--vertical p {
@@ -62,11 +98,12 @@ a {
     border-radius: 10px;
     border-style: solid;
     font-weight: bold;
+    font-size: 1.25em;
 }
 
 .project-card--vertical img {
-    width: 90%;
     height: 40%;
+    width: auto;
     border-radius: 25px;
     border-style: solid;
 }
@@ -79,13 +116,13 @@ a {
 
 /* styles */
 .style--green {
-    color: hsl(53, 55%, 90%);
+    color: rgba(250, 250, 250, 0.7);
     background-color: hsl(53, 40%, 75%);
-    box-shadow: 0px 0px 15px 5px hsl(53, 40%, 75%);
+    box-shadow: 3px 3px 10px 3px hsla(53, 40%, 75%, 0.75);
 }
 
 .style--orange {
-    color: hsl(10, 55%, 95%);
+    color: rgba(250, 250, 250, 0.7);
     background-color: hsl(10, 55%, 70%);
-    box-shadow: 0px 0px 15px 5px hsl(10, 55%, 70%);
+    box-shadow: 0px 0px 10px 2px hsla(10, 55%, 70%, 0.75);
 }

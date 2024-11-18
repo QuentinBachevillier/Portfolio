@@ -1,8 +1,23 @@
-header {
-
-}
-
 header nav {
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(0deg, hsla(0, 0%, 100%, 0) 0%, hsla(53, 60%, 90%, 0.9) 70%);
+    position: fixed;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+nav div {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    height: 40px;
+}
+
+nav a img {
+    height: 40px;
+    width: auto;
+    opacity: 0.7;
 }
