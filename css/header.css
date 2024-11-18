@@ -29,3 +29,14 @@ footer {
     background-color: hsl(53, 40%, 75%);
     padding: 15px;
 }
+
+footer img {
+    height: 60px;
+    width: auto;
+    margin: 10px;
+    transition: transform 0.1s;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}

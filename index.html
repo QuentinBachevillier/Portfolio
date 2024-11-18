@@ -23,15 +23,15 @@
     <nav>
         <a class="style--orange" href=""><img src="Images/Icons/homeIcon.png" alt=""></a>
         <div>
-            <a class="style--orange" href="">Profil</a>
-            <a class="style--orange" href="">Projets</a>
+            <a class="style--orange" href="#Profil">Profil</a>
+            <a class="style--orange" href="#Projets">Projets</a>
         </div>
     </nav>
 </header>
 
 <main>
     <h1>Hayden Bachevillier - Portfolio</h1>
-    <h2 class="style--green">Profil</h2>
+    <h2 id="Profil" class="style--green">Profil</h2>
     <section id="Profile">
         <img id="Profile-pic" src="Images/Profile/photoProfil.jpg" alt="">
         <div>
@@ -50,14 +50,16 @@
         </div>
     </section>
 
-    <h2 class="style--green">Projets</h2>
+    <h2 id="Projets" class="style--green">Projets</h2>
     <section>
         <!-- Site : Blog Séries/Films -->
         <div class="project-card--vertical style--green">
             <p class="style--dark-green">09/11/24</p>
             <h3>Blog Séries/Films</h3>
             <img src="Images/Projects/BlogSeriesFilms/blogSeriesFilmsThumbnail.PNG" alt="">
-            <a class="style--orange" href="">+</a>
+            <a class="style--orange" 
+            target="_blank"
+            href="https://quentinbachevillier.github.io/renduCSS/">+</a>
         </div>
 
         <!-- Jeu : Night Ballad -->
@@ -65,21 +67,33 @@
             <p class="style--dark-green">01/03/23</p>
             <h3>Night Ballad</h3>
             <img src="Images/Projects/NightBallad/nightBalladThumbnail.png" alt="">
-            <a class="style--orange" href="">+</a>
+            <a class="style--orange"
+            target="_blank"
+            href="https://judpom.itch.io/night-ballad">+</a>
         </div>
 
         <div class="project-card--vertical style--green">
             <p class="style--dark-green">JJ/MM/AA</p>
             <h3>Nom du Projet</h3>
-            <img src="" alt="">
-            <a class="style--orange" href="">+</a>
+            <img src="https://i.pinimg.com/736x/85/57/74/855774358bb77c5159b92488f6785674.jpg" alt="">
+            <a class="style--orange" 
+            target="_blank"
+            href="">+</a>
         </div>
     </section>
 
 </main>
 
 <footer>
-    <p>ceci est un footer</p>
+    <a href="">
+        <img src="Images/Icons/linkedinIcon.png" title="Linked in" alt="Linked in">
+    </a>
+    <a href="https://github.com/QuentinBachevillier">
+        <img src="Images/Icons/githubIcon.png" title="GitHub" alt="GitHub">
+    </a>
+    <a href="https://judpom.itch.io/">
+        <img src="Images/Icons/itchioIcon.png" title="Itch.io" alt="Itch.io">
+    </a>
 </footer>
 
 </body>
