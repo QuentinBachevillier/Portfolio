@@ -1,10 +1,11 @@
-header nav {
-    display: flex;
-    justify-content: space-between;
+nav {
     background: linear-gradient(0deg, hsla(0, 0%, 100%, 0) 0%, hsla(53, 60%, 90%, 0.9) 70%);
     position: fixed;
     width: 100%;
     padding-bottom: 30px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav div {
@@ -14,10 +15,17 @@ nav div {
 nav a {
     display: block;
     height: 40px;
+    margin: 15px;
 }
 
 nav a img {
     height: 40px;
     width: auto;
     opacity: 0.7;
+}
+
+footer {
+    color: rgba(250, 250, 250, 0.7);
+    background-color: hsl(53, 40%, 75%);
+    padding: 15px;
 }

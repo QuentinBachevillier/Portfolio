@@ -41,7 +41,6 @@ h3 {
 
 a {
     padding: 5px 15px;
-    margin: 15px 15px;
     font-size: 1.3em;
     border-radius: 25px;
     transition: transform 0.1s;
@@ -54,16 +53,36 @@ a:hover {
 }
 
 /* Profile */
+#Profile {
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+}
 
-#profile img {
+#Profile-pic {
+    margin: 15px 30px;
     height: 300px;
     width: auto;
     border-radius: 100%;
 }
 
-#profile div {
-    width: 650px;
+#Profile div img {
+    height: 60px;
+    width: auto;
+    margin: 10px;
+    transition: transform 0.1s;
 }
+
+#Profile div img:hover {
+    transform: scale(1.1);
+}
+
+#Profile div {
+    width: 650px;
+    margin: 15px 30px;
+}
+
+
 
 /* Vertical Project Card */
 .project-card--vertical {
@@ -71,9 +90,10 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 65vh;
+    height: 400px;
     width: 300px;
     padding: 15px;
+    margin: 15px;
     border-radius: 25px;
     transition: transform 0.2s;
 }
@@ -102,8 +122,8 @@ a:hover {
 }
 
 .project-card--vertical img {
-    height: 40%;
-    width: auto;
+    height: auto;
+    width: 95%;
     border-radius: 25px;
     border-style: solid;
 }
@@ -112,6 +132,7 @@ a:hover {
     align-self: flex-end;
     padding: 0px 13px;
     font-weight: bold;
+    border-radius: 100%;
 }
 
 /* styles */
