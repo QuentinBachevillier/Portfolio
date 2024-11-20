@@ -97,11 +97,11 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 400px;
-    width: 300px;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 25px;
+    height: 35vw;
+    width: 25vw;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 2.5vw;
     transition: transform 0.2s;
 }
 
@@ -112,9 +112,9 @@ a:hover {
 .project-card--vertical p {
     align-self: flex-start;
     padding: 0px 5px;
-    border-radius: 10px;
-    font-size: 0.90em;
-    border-style: solid;
+    border-radius: 1vw;
+    font-size: 1.7vw;
+    border: solid 0.3vw;
     font-weight: bold;
 }
 
@@ -122,24 +122,25 @@ a:hover {
     font-weight: bold;
     text-align: center;
     padding: 0px 5px;
-    border-radius: 10px;
-    border-style: solid;
+    border-radius: 1vw;
+    border: solid 0.3vw;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 2.5vw;
 }
 
 .project-card--vertical img {
     height: auto;
-    width: 95%;
-    border-radius: 25px;
-    border-style: solid;
+    width: 23vw;
+    border-radius: 2vw;
+    border: solid 0.3vw;
 }
 
 .project-card--vertical a {
     align-self: flex-end;
-    padding: 2px 14px;
+    padding: 1.25% 4.5%;
     font-weight: bold;
     border-radius: 100%;
+    font-size: 2.5vw;
 }
 
 /* styles */
